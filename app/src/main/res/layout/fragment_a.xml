@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?android:attr/colorMultiSelectHighlight">
+
+    <TextView
+        android:text="Titulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/titulo_fragment_a"
+        android:textAppearance="@style/TextAppearance.WearDiag.Title"
+        android:textStyle="normal|bold"
+        android:textAlignment="center" />
+
+    <Button
+        android:text="Ir a B"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button_ir_a_b" />
+</LinearLayout>
